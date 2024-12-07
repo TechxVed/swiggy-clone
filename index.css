@@ -1,0 +1,1167 @@
+* {
+    cursor:pointer;
+}
+.back {
+    background-color: #FF5200;
+    height: 3600px;
+    }
+
+.top {
+    background-color: #FF5200;
+    width: 100%;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    margin-right: 0px;
+    transition: 0.8s;
+}
+.logo:hover {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.Corporate {
+  display: inline-block;
+  color: white;
+  font-weight: bolder;
+  font-family: Arial;
+  font-size: 17;
+  margin-left: 500px;
+  margin-top: 48px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.Corporate:hover {
+    color: black;
+}
+
+
+.partner {
+    display: inline-block;
+    color: white;
+  font-weight: bolder;
+  font-family: Arial;
+  margin-left: 35px;
+  font-size: 17;
+  margin-top: 48px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.partner:hover {
+    color: black;
+}
+
+.get-app {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: #FF5200;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    border-color: white;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.8s;
+    border-width: 2px;
+  }
+  .get-app:hover {
+    background-color: white;
+    color: black;
+  }
+
+.sign {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    border-color: black;
+    margin-left: 35px;
+    margin-top: 35px;
+    border-width: 2px;
+    vertical-align: top;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+  .sign:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  .veggie {
+    display: inline-block;
+    width: 250px;
+    height: 500px;
+    vertical-align: top;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 5px;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  .veggie:hover {
+    opacity: 0.4;
+  }
+
+
+
+  .sushi-main {
+    display: inline-block;
+    width: 245px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: top;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .sushi-main:hover {
+    opacity: 0.4;
+  }
+
+  .heading {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 190px;
+    margin-top: 150;
+    width: 800px;
+    font-weight:1000;
+    font-size: 45;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+.heading:hover {
+    color: black;
+}
+  
+  .location {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 440px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 120px
+  }
+  ::placeholder {
+    font-weight: bold;
+    font-size: large;
+    color: #FF5200;
+  }
+
+  .items {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 120px
+  }
+ 
+  .delivery {
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: 0.9s;
+
+  }
+  .delivery:hover {
+    box-shadow: 15px 15px 10px white;
+  }
+
+  .dineout {
+    width: 450px;
+    cursor: pointer;
+    margin-right: 0px;
+    transition: 0.9s; 
+  }
+  .dineout:hover {
+   box-shadow: 15px 15px 10px gray;
+  }
+
+  .pick {
+    width: 450px;
+    cursor: pointer;
+    margin-left: 0px;
+    transition: 0.9s; 
+  }
+  .pick:hover {
+    box-shadow: 15px 15px 10px wheat;
+  }
+
+  .order {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .category {
+    width: 1500px;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 15px;
+    height: 450px;
+  }
+  
+  
+
+  .a {
+    width: 150px;
+    transition: 0.4s;
+    }
+    .a:hover {
+        opacity: 0.5;
+        cursor: grabbing;
+    }
+  
+.b {
+    width: 150px;
+    transition: 0.4s;
+}
+.b:hover {
+        opacity: 0.5;
+        cursor: grabbing;
+}
+  .c {
+    width: 150px;
+    transition: 0.4s;
+  }
+  .c:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .d {
+    width: 150px;
+    transition: 0.4s;
+  } .d:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .e {
+    width: 150px;
+    transition: 0.4s;
+  } .e:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .f {
+    width: 150px;
+    transition: 0.4s;
+  } .f:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .g {
+    width: 150px;
+    transition: 0.4s;
+  } .g:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .h {
+    width: 150px;
+    transition: 0.4s;
+  } .h:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .i {
+    width: 150px;
+    transition: 0.4s;
+  }  .i:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .j {
+    width: 150px;
+    transition: 0.4s;
+  }  .j:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .k {
+    width: 150px;
+    transition: 0.4s;
+  } .k:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .l {
+    width: 150px;
+    transition: 0.4s;
+  }  .l:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .m {
+    width: 150px;
+    transition: 0.4s;
+  }  .m:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+  .n {
+    width: 150px;
+    transition: 0.4s;
+  }  .n:hover {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+.o{
+  width: 150px;
+  transition: 0.4s;
+}  .o:hover {
+  opacity: 0.5;
+  cursor: grabbing;
+}
+.p {
+  width: 150px;
+  transition: 0.4s;
+}  .p:hover {
+  opacity: 0.5;
+  cursor: grabbing;
+}
+.q {
+  width: 150px;
+  transition: 0.4s;
+}  .q:hover {
+  opacity: 0.5;
+  cursor: grabbing;
+}
+.r {
+  width: 150px;
+  transition: 0.4s;
+}  .r:hover {
+  opacity: 0.5;
+  cursor: grabbing;
+}
+.app-banner {
+    width: 1200px;
+}
+
+.banner {
+    width: 1500px;
+    margin-top: 100px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
+.delivery-1 {
+    background-color: white;
+    height: 750px; 
+    margin-top: 0px;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.cities {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 33px;
+    margin-top: 10px;
+    vertical-align: top;
+    transition: 0.8s;
+}
+.cities:hover {
+    box-shadow: 10px 10px 10px #FF5200;
+}
+
+.city1 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+    transition: 0.8s;
+}
+.city1:hover{
+    background-color: black;
+    color: white;
+}
+
+.city2 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+    transition: 0.8s;
+}
+.city2:hover{
+    background-color: black;
+    color: white;
+}
+
+.city3 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    transition: 0.8s;
+    width: 200px;
+    border-width: 2px;
+}
+.city3:hover{
+    background-color: black;
+    color: white;
+} 
+
+.city4 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    transition: 0.8s;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city4:hover{
+    background-color: black;
+    color: white;
+}
+
+.city5 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    transition: 0.8s;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city5:hover{
+    background-color: black;
+    color: white;
+}
+
+.city6 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    transition: 0.8s;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city6:hover{
+    background-color: black;
+    color: white;
+}
+
+.city7 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    transition: 0.8s;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city7:hover{
+    background-color: black;
+    color: white;
+}
+
+.city8 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    transition: 0.8s;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city8:hover{
+    background-color: black;
+    color: white;
+}
+
+.city9 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    transition: 0.8s;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city9:hover{
+    background-color: black;
+    color: white;
+}
+
+.city10 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    transition: 0.8s;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city10:hover{
+    background-color: black;
+    color: white;
+}
+
+.city11 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    transition: 0.8s;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city11:hover{
+    background-color: black;
+    color: white;
+}
+
+.city12 {
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 16px;
+    transition: 0.8s;
+    border-radius: 12px;
+    background-color:#FF5200;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city12:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.delivery-2 {
+    background-color: white;
+    margin-top: 50px;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.cities2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 33px;
+    margin-top: 10px;
+    vertical-align: top;
+    transition: 0.8s;
+}
+.cities2:hover {
+    box-shadow: 10px 10px 10px #FF5200;
+}
+.city13 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    transition: 0.8s;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city13:hover{
+    background-color: black;
+    color: white;
+}
+
+.city14 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    transition: 0.8s;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city14:hover{
+    background-color: black;
+    color: white;
+}
+
+.city15 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.8s;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city15:hover{
+    background-color: black;
+    color: white;
+} 
+
+.city16 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    transition: 0.8s;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city16:hover{
+    background-color: black;
+    color: white;
+}
+
+.city17 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    transition: 0.8s;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city17:hover{
+    background-color: black;
+    color: white;
+}
+
+.city18 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    transition: 0.8s;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city18:hover{
+    background-color: black;
+    color: white;
+}
+
+.city19 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    transition: 0.8s;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city19:hover{
+    background-color: black;
+    color: white;
+}
+
+.city20 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    transition: 0.8s;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city20:hover{
+    background-color: black;
+    color: white;
+}
+
+.city21 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    transition: 0.8s;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city21:hover{
+    background-color: black;
+    color: white;
+}
+
+.city22 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    transition: 0.8s;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city22:hover{
+    background-color: black;
+    color: white;
+}
+
+.city23 {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    font-family: arial;
+    transition: 0.8s;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city23:hover{
+    background-color: black;
+    color: white;
+}
+
+.city24 {
+    padding-left: 16px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 16px;
+    border-radius: 12px;
+    background-color:#FF5200;
+    color:black;
+    font-family: arial;
+    border-color: grey;
+    margin-left: 35px;
+    margin-top: 35px;
+    vertical-align: top;
+    transition: 0.8s;
+    font-size: large;
+    cursor:grabbing;
+    width: 200px;
+    border-width: 2px;
+}
+.city24:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.info {
+    background-color: rgb(150, 150, 150);
+    margin-top: 60px;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .info-logo {
+    background-color:rgb(150, 150, 150);
+    width: 80;
+    border-radius: 200px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 10px;
+    vertical-align: top;
+  }
+  
+  header {
+    background-color: rgb(150, 150, 150);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #FF5200;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .availability p {
+    margin: 10px 0;
+  }
+   
+  .city {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color:#FF5200;
+    font-family: Arial;
+    font-weight: bold;
+  }
+  
+  .social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 20px
+  }
+
+  .lk {
+    width: 70px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-bottom: 8px;
+    margin-left: 0px;
+
+
+  }
+
+  .ig {
+    width: 50px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+    left:5px;
+  }
+  
+  .fb {
+    width: 40px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .twi {
+    width: 35px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-left: 18px;
+    margin-top: 13px;
+    margin-right: 9px;
+  }
+
+  .link {
+    color:black;
+    text-align:center ;
+    margin-bottom: 100px;
+    position: relative;
+    top: 22px;
+    right: 8px;
+  }
+
+  .insta {
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .Team {
+    background-color:#FF5200;
+    margin-top: 40px;
+    margin-left: 600px;
+    align-items: center;
+    font-family: italic;
+    font-weight: bolder;
+  }
+
+  .me {
+    position: relative;
+    margin-left: 690px;
+    font-weight: 900;
+    font-size: larger;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.8s;
+  }
+  .me:hover{
+    box-shadow: 15px 15px 15px black;
+  }
+
+
